@@ -541,7 +541,6 @@
     <Content Include="bower_components\angular-resource\package.json" />
     <Content Include="bower_components\angular-resource\README.md" />
     <Content Include="app\data\AllSets.json" />
-    <Content Include="app\data\AllCards.json" />
     <Content Include="bower_components\datatables\.bower.json" />
     <Content Include="bower_components\datatables\bower.json" />
     <Content Include="bower_components\datatables\Contributing.md" />
@@ -560,7 +559,6 @@
     <Content Include="bower_components\angular-busy\.bower.json" />
     <Content Include="bower_components\angular-busy\bower.json" />
     <Content Include="bower_components\angular-busy\LICENSE" />
-    <Content Include="app\data\AllCards-x.json" />
     <Content Include="app\layout\bootstrap.min.css" />
     <Content Include="app\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="app\fonts\glyphicons-halflings-regular.ttf" />
