@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>MTG Deck Builder</title>
+    <meta charset="utf-8" />
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="app/layout/bootstrap.min.css" rel="stylesheet" />
+    <link href="bower_components/datatables/media/css/dataTables.bootstrap.min.css" rel="stylesheet" />
+    <link href="bower_components/angular-busy/dist/angular-busy.min.css" rel="stylesheet" />
+    <link href="app/layout/app.css" rel="stylesheet" />
+</head>
+<body ng-app="app">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <div class="navbar-brand">
+                    <a class="navbar-link" ng-href="/#home">MTG Deck Builder 1.0</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a ng-href="/#cards">Card Browser</a></li>
+                    <li><a ng-href="/#decks">My Decks</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <ng-view>
+        </ng-view>
+    </div>
+
+    <!-- vendor scripts -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/datatables/media/js/jquery.dataTables.min.js"></script>
+    <script src="bower_components/datatables/media/js/dataTables.bootstrap.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.min.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+    <script src="bower_components/angular-busy/dist/angular-busy.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script src="bower_components/gsap/src/minified/TweenMax.min.js"></script>
+    <script src="bower_components/ngFx/dist/ngFx.min.js"></script>
+    <script src="bower_components/underscore/underscore-min.js"></script>
+
+    <!-- app -->
+    <script src="app/app.js"></script>
+    <script src="app/controllers/cards.js"></script>
+    <script src="app/services/dataContext.js"></script>
+    <script src="app/models/card.js"></script>
+
+    <!-- directives -->
+    <script src="app/directives/dataTable.js"></script>
+
+    <!-- filters -->
+    <script src="app/filters/filters.js"></script>
+</body>
+</html>
